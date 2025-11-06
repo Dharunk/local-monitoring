@@ -1,0 +1,24 @@
+{
+  "annotations": {"list": []},
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "Processing Time (s)",
+      "gridPos": {"x": 0, "y": 0, "w": 12, "h": 8},
+      "targets": [
+        {"expr": "sampleapp_processing_time_seconds", "refId": "A"}
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "Total Requests",
+      "gridPos": {"x": 12, "y": 0, "w": 12, "h": 8},
+      "targets": [
+        {"expr": "sampleapp_requests_total", "refId": "A"}
+      ]
+    }
+  ],
+  "schemaVersion": 36,
+  "title": "Sample App Metrics (Import)",
+  "uid": "sample-app-metrics-import"
+}
